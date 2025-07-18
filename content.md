@@ -1,5 +1,7 @@
 # Visual Studio Code - Your Integrated Development Environment
 
+Visual Studio Code is one of the most popular code editors in the world. It's fast, flexible, and packed with features that help you write, run, and debug code more easily no matter what language you're using.
+
 ## Goal
 
 By the end of this lesson, you’ll be able to install VS Code, open a project folder, write and save a file, and run it in the terminal.
