@@ -1,1 +1,1 @@
-# lesson-template
+# vs-code-basics
