@@ -4,20 +4,24 @@ Visual Studio Code is one of the most popular code editors in the world. It's fa
 
 ## Goal
 
-By the end of this lesson, you’ll be able to install VS Code, open a project folder, write and save a file, and run it in the terminal.
+By the end of this lesson, you’ll learn the essential features of VS Code, explore powerful tips and keyboard shortcuts to boost efficiency, and pick up handy tricks to streamline your setup. By the end, you’ll be equipped with practical skills to code faster and more effectively in any project.
 
-## 1. Install VS Code
+## 1(a). Use a Codespace
 
-- Go to the official download page: https://code.visualstudio.com
+- Use the [Static HTML Template](https://github.com/new?template_name=static-html-template&template_owner=dpi-tta-projects) to create a new repository using a codespace.
+
+## 1(b). Install VS Code
+
+- Go to the official download page: [https://code.visualstudio.com](https://code.visualstudio.com)
 - Download the installer for your OS (Windows, macOS, or Linux).
 - Open the installer and follow the default prompts.
 - Launch VS Code
 
 <aside class="tip">
-  On Windows, choose “Add to PATH” during setup. It makes launching VS Code from the terminal easier.
+  On Windows, choose "Add to PATH" during setup. It makes launching VS Code from the terminal easier.
 </aside>
 
-## 2. Open a Folder (Your Project Workspace)
+### Open a Folder (Your Project Workspace)
 
 Let’s make a place for your code. Open your terminal and run:
 
@@ -38,28 +42,37 @@ code .
 
 VS Code will open your new folder as a project workspace.
 
-## 3. Create and Save a File
+## 2. Create and Save a File
+
+<!-- TODO: add vs code layout screenshot -->
+
+<!-- TODO: add image of new file icon -->
+
 In VS Code, click the New File icon in the Explorer sidebar.
+
+<!-- TODO: aside on using `touch` command to create a file -->
 
 Name it: `hello.txt`
 
 Type:
 
-```
+```txt
 Hello, VS Code!
 ```
 
 Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
 
-<aside class="why">
+<aside class="tip">
   Files you create in VS Code are saved directly into your project folder. No extra setup needed.
 </aside>
 
-## 4. Use the Integrated Terminal
+## 3. Use the Integrated Terminal
+
+<!-- TODO: screenshot -->
 
 Open the terminal inside VS Code:
 
-- Go to the top menu: View > Terminal (or press Ctrl + `)
+- Go to the top menu: Terminal > New Terminal (or press Ctrl + \`)
 
 You’ll now see a terminal at the bottom of the window. Try:
 
@@ -72,31 +85,108 @@ You should see:
 `hello.txt`
 
 <aside class="tip">
-  <strong>Shortcut:</strong> Press <kbd>Ctrl + `</kbd> (that’s the backtick key) to quickly toggle the terminal.
+  <strong>Shortcut:</strong> Press <code>Ctrl + `</code> (that’s the backtick key) or <code>⌘ + J</code> to quickly toggle the terminal.
 </aside>
+
+<aside class="tip">
+  <strong>Shortcut:</strong> Press <code>ctrl + shift + `</code> to create new terminal instances.
+</aside>
+
+## 4. Use the Explorer to Navigate Your Project
+
+The **Explorer sidebar** shows your files and folders. You can:
+
+- Click to open files
+- Right-click to rename, delete, or create new files/folders
+- Drag files to move them
+
+<aside class="tip">
+  Press <code>⌘ + B</code> to show or hide the Explorer sidebar quickly.
+</aside>
+
+<!-- highlight and press return to rename -->
+
+## 5. Use the Command Palette (Power Tool)
+
+The **Command Palette** lets you do almost anything by typing.
+
+- Open it with: <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl + Shift + P</code> (Windows/Linux)
+- Try typing:
+  - `theme` to change your editor theme
+  - `terminal` to toggle or create a terminal
+  - `format` to auto-format your code
+
+<aside class="tip">
+  The Command Palette is especially useful when you don’t remember where a setting lives in the menu.
+</aside>
+
+## 6. Split the Screen to View Multiple Files
+
+Want to see two files at once?
+<!-- TODO: screenshot -->
+- Right-click a tab and choose **Split Right**
+- Or drag a tab to the right side of the screen
+- Shortcut: <code>⌘ + \</code> (Mac) or <code>Ctrl + \</code> (Win/Linux)
+
+You can work in both panes simultaneously—great for comparing files or writing HTML and CSS side-by-side.
+
+## 7. Find in File vs. Global Search
+
+Need to find some text?
+
+- Press <code>⌘ + F</code> (or <code>Ctrl + F</code>) to search in the **current file**
+- Press <code>⌘ + Shift + F</code> (or <code>Ctrl + Shift + F</code>) to search **across your whole project**
+
+You can also use **Replace (`⌘ + Option + F`)** to update text across files.
+
+<aside class="tip">
+  Search supports regex and case sensitivity filters. Try the icons in the search bar!
+</aside>
+
+<!-- find / replace -->
+
+<!-- TODO: screenshot / video -->
+
+## 8. Move Code Without Copy/Paste
+
+Need to reorder lines of code?
+
+- Place your cursor on a line and press:
+  - <code>Option + ↑ / ↓</code> (Mac)
+  - <code>Alt + ↑ / ↓</code> (Windows/Linux)
+
+This moves the entire line up or down. Super helpful when organizing code!
+
+<!-- TODO: Option + shift + ↑ / ↓ to copy line -->
 
 ## Shortcuts to Know
 
-| Shortcut	            | What It Does                         |
-| --------------------- | ------------------------------------ |
-| ⌘/Ctrl + S            | Save the current file                |
-| ⌘/Ctrl + P            | Quickly open any file in the project |
-| ⌘/Ctrl + /            | Toggle a comment on a line           |
-| ⌘/Ctrl + Shift + P    | Open the Command Palette             |
-| ⌘/Ctrl + B            | Show/hide sidebar                    |
-| ⌘/Ctrl + ` (backtick)	| Toggle terminal                      |
+| Shortcut	                   | What It Does                         |
+| ---------------------------- | ------------------------------------ |
+| ⌘ + S                        | Save the current file                |
+| ⌘ + P                        | Quickly open any file in the project |
+| ⌘ + /                        | Toggle a comment on a line           |
+| ⌘ + Shift + P                | Open the Command Palette             |
+| ⌘ + B                        | Show/hide sidebar                    |
+| ⌘ + \` (backtick)            | Toggle terminal                      |
+| ⌘ + Shift + \\               | Jump to matching bracket             |
+| ⌘ + D                        | Select next matching word            |
+| ⌘ + K, then ⌘ + S            | Open keyboard shortcuts menu         |
+| ⌘ + Shift + E                | Focus the Explorer                   |
 
-<aside class="tip">
-  The Command Palette is your command center. Try typing "theme" or "terminal" into it!
-</aside>
+Use `Ctrl` in place of `⌘` on Windows/Linux.
 
 ## Practice Challenge
 
 Try This:
 
-- Create a new file named notes.md
+- Create a new file named `notes.md`
 - Write 3 lines of markdown text.
 - Open the integrated terminal and list your files.
+- Use the Command Palette to change your theme.
+- Split the screen and open two files side-by-side.
+- Try searching across your project with <code>⌘ + Shift + F</code>.
+- Use <code>Option + ↓</code> to move a line in your markdown file.
 
 ## Wrap-Up
 
@@ -108,7 +198,6 @@ You’ve learned how to:
 - Use the integrated terminal
 - Use time-saving shortcuts
 
-
 ## Quiz
 
 - What does the `code .` command do?
@@ -118,7 +207,7 @@ You’ve learned how to:
   - Not quite. It launches VS Code.
 - Closes VS Code
   - Nope, that’s not what it does.
-{: .choose_best #code_dot title="Opening a Folder with VS Code" answer="1"}
+{: .choose_best #code_dot title="Opening a Folder with VS Code" answer="1" }
 
 - Which are useful VS Code features?
 - Integrated terminal
@@ -129,7 +218,7 @@ You’ve learned how to:
   - Correct! You can install features for different languages and tools.
 - Infinite scrolling
   - Not quite. That’s not specific to code editing.
-{: .choose_all #features title="VS Code Features" answer="[1,3]"}
+{: .choose_all #features title="VS Code Features" answer="[1,3]" }
 
 - What shortcut opens the Command Palette?
 - ⌘/Ctrl + Shift + P
@@ -138,4 +227,4 @@ You’ve learned how to:
   - Not quite. That opens the file search.
 - ⌘/Ctrl + B
   - That toggles the sidebar.
-{: .choose_best #command_palette title="VS Code Shortcuts" answer="1"}
+{: .choose_best #command_palette title="VS Code Shortcuts" answer="1" }
