@@ -8,9 +8,10 @@ By the end of this lesson, you’ll learn the essential features of VS Code, exp
 
 ## 1(a). Use a Codespace
 
-<!-- TODO: screenshot -->
+![create codespace on main](assets/create-codespace-on-main.png)
 
-- Use the [Static HTML Template](https://github.com/new?template_name=static-html-template&template_owner=dpi-tta-projects) to create a new repository and open it using a codespace.
+- Use the [Static HTML Template](https://github.com/dpi-tta-projects/static-html-template&template_owner=dpi-tta-projects) to create a new repository.
+- Open your repository in a codespace.
 - Move to [Step 2](#2-create-and-save-a-file)
 
 ## 1(b). Install VS Code
@@ -40,20 +41,24 @@ code .
 ```
 
 <aside class="tip">
-  If <code>code .</code> doesn’t work, press <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl+Shift+P</code> (Win/Linux) in VS Code, type <code>shell command</code>, and select <strong>Install 'code' command in PATH</strong>.
+  If <code>code .</code> doesn’t work, open VS Code and press <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl+Shift+P</code> (Win/Linux) in VS Code, type <code>shell command</code>, and select <strong>Install 'code' command in PATH</strong>. If this still doesn't work, try clicking <strong>Uninstall 'code' command from PATH</strong> first, then installing again.
 </aside>
 
 VS Code will open your new folder as a project workspace.
 
 ## 2. Create and Save a File
 
-<!-- TODO: add vs code layout screenshot -->
+![vscode layout](assets/vscode.png)
 
-<!-- TODO: add image of new file icon -->
+Let's start off by creating a new file in VS Code.
 
-In VS Code, click the New File icon in the Explorer sidebar.
+![new file icon](assets/vscode-new-file-icon.png)
 
-<!-- TODO: aside on using `touch` command to create a file -->
+Open the VS Code explorer sidebar and click the New File icon in the Explorer sidebar.
+
+<aside class="tip">
+ Another approach to quickly creating a file is to right click anywhere in the explorer and select "New File...".
+</aside>
 
 Name it: `hello.txt`
 
@@ -107,9 +112,14 @@ The **Explorer sidebar** shows your files and folders. You can:
   Press <code>⌘ + B</code> to show or hide the Explorer sidebar quickly.
 </aside>
 
-<!-- highlight and press return to rename -->
+Leverage shortcuts to:
+
+- Rename a file by clicking on it and pressing the return key
+- Delete a file by click on it and pressing ⌘ + delete key
 
 ## 5. Use the Command Palette
+
+![command palette](assets/command-palette.png)
 
 The **Command Palette** lets you do almost anything by typing.
 
@@ -117,7 +127,7 @@ The **Command Palette** lets you do almost anything by typing.
 - Try typing:
   - `theme` to change your editor theme
   - `terminal` to toggle or create a terminal
-  - `format` to auto-format your code
+  - `Format Document` to auto-format your code
 
 <aside class="tip">
   The Command Palette is especially useful when you don’t remember where a setting lives in the menu.
@@ -125,13 +135,15 @@ The **Command Palette** lets you do almost anything by typing.
 
 ## 6. Split the Screen to View Multiple Files
 
+<video src="assets/split-screen.mp4" autoplay loop muted playsinline></video>
+
 Want to see two files at once?
-<!-- TODO: screenshot -->
+
 - Right-click a tab and choose **Split Right**
 - Or drag a tab to the right side of the screen
 - Shortcut: <code>⌘ + \</code> (Mac) or <code>Ctrl + \</code> (Win/Linux)
 
-You can work in both panes simultaneously—great for comparing files or writing HTML and CSS side-by-side.
+You can work in both panes simultaneously (great for comparing files or writing HTML and CSS side-by-side).
 
 ## 7. Find in File vs. Global Search
 
