@@ -8,7 +8,10 @@ By the end of this lesson, you’ll learn the essential features of VS Code, exp
 
 ## 1(a). Use a Codespace
 
-- Use the [Static HTML Template](https://github.com/new?template_name=static-html-template&template_owner=dpi-tta-projects) to create a new repository using a codespace.
+<!-- TODO: screenshot -->
+
+- Use the [Static HTML Template](https://github.com/new?template_name=static-html-template&template_owner=dpi-tta-projects) to create a new repository and open it using a codespace.
+- Move to [Step 2](#2-create-and-save-a-file)
 
 ## 1(b). Install VS Code
 
@@ -68,7 +71,7 @@ Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
 
 ## 3. Use the Integrated Terminal
 
-<!-- TODO: screenshot -->
+![new terminal dropdown](assets/new-terminal-dropdown.png)
 
 Open the terminal inside VS Code:
 
@@ -106,7 +109,7 @@ The **Explorer sidebar** shows your files and folders. You can:
 
 <!-- highlight and press return to rename -->
 
-## 5. Use the Command Palette (Power Tool)
+## 5. Use the Command Palette
 
 The **Command Palette** lets you do almost anything by typing.
 
