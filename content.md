@@ -1,4 +1,4 @@
-# Visual Studio Code - Your Integrated Development Environment
+# Visual Studio Code: A Deeper Look
 
 Visual Studio Code is one of the most popular code editors in the world. It's fast, flexible, and packed with features that help you write, run, and debug code more easily no matter what language you're using.
 
