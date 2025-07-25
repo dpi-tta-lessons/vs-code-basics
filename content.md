@@ -78,12 +78,6 @@ Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
   Files you create in VS Code are saved directly into your project folder. No extra setup needed.
 </aside>
 
-### Copy Text Quickly
-
-VS Code makes it easy to quickly copy a line of text. Press `option + shift + ↓` to duplicate the current line. (This also works for up ↑)
-
-<video src="assets/copy-line.mp4" autoplay loop muted playsinline></video>
-
 ## 3. Use the Integrated Terminal
 
 ![new terminal dropdown](assets/new-terminal-dropdown.png)
@@ -178,7 +172,9 @@ Need to reorder lines of code?
 
 This moves the entire line up or down. Super helpful when organizing code!
 
-<!-- TODO: Option + shift + ↑ / ↓ to copy line -->
+Press `option + shift + ↓` to duplicate the current line. (This also works for up ↑)
+
+<video src="assets/copy-line.mp4" autoplay loop muted playsinline></video>å
 
 ## Shortcuts to Know
 
