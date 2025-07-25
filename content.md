@@ -177,7 +177,7 @@ This moves the entire line up or down. Super helpful when organizing code!
 
 Press `option + shift + ↓` to duplicate the current line. (This also works for up ↑)
 
-<video src="assets/copy-line.mp4" autoplay loop muted playsinline></video>å
+<video src="assets/copy-line.mp4" autoplay loop muted playsinline></video>
 
 ## Shortcuts to Know
 
