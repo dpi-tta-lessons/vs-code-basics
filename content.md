@@ -82,7 +82,7 @@ Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
 
 VS Code makes it easy to quickly copy a line of text. Press `option + shift + ↓` to duplicate the current line. (This also works for up ↑)
 
-<video src="assets/open-project-workspace.mp4" autoplay loop muted playsinline></video>
+<video src="assets/copy-line.mp4" autoplay loop muted playsinline></video>
 
 ## 3. Use the Integrated Terminal
 
