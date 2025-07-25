@@ -78,6 +78,12 @@ Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
   Files you create in VS Code are saved directly into your project folder. No extra setup needed.
 </aside>
 
+### Copy Text Quickly
+
+VS Code makes it easy to quickly copy a line of text. Press `option + shift + ↓` to duplicate the current line. (This also works for up ↑)
+
+<video src="assets/open-project-workspace.mp4" autoplay loop muted playsinline></video>
+
 ## 3. Use the Integrated Terminal
 
 ![new terminal dropdown](assets/new-terminal-dropdown.png)
@@ -156,15 +162,9 @@ Need to find some text?
 - Press <code>⌘ + F</code> (or <code>Ctrl + F</code>) to search in the **current file**
 - Press <code>⌘ + Shift + F</code> (or <code>Ctrl + Shift + F</code>) to search **across your whole project**
 
-You can also use **Replace (`⌘ + Option + F`)** to update text across files.
+You can also use **Replace (`⌘ + option + F`)** to update text across files. Press `Enter` to replace and/or `⌘ + Enter` to replace all occurences.
 
-<aside class="tip">
-  Search supports regex and case sensitivity filters. Try the icons in the search bar!
-</aside>
-
-<!-- find / replace -->
-
-<!-- TODO: screenshot / video -->
+<video src="assets/find-and-replace.mp4" autoplay loop muted playsinline></video>
 
 ## 8. Move Code Without Copy/Paste
 
