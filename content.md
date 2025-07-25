@@ -149,18 +149,21 @@ Want to see two files at once?
 
 You can work in both panes simultaneously (great for comparing files or writing HTML and CSS side-by-side).
 
-## 7. Find in File vs. Global Search
+## 7. Searching Text
 
-Need to find some text?
-
-- Press <code>⌘ + F</code> (or <code>Ctrl + F</code>) to search in the **current file**
-- Press <code>⌘ + Shift + F</code> (or <code>Ctrl + Shift + F</code>) to search **across your whole project**
+Need to find some text? Press <code>⌘ + F</code> (or <code>Ctrl + F</code>) to search in the **current file**
 
 Press `Enter` to cycle through each occurence or `Shift + Enter` to cycle backwards.
 
 You can also use **Replace (`⌘ + option + F`)** to update text across files. Press `Enter` to replace and/or `⌘ + Enter` to replace all occurences.
 
 <video src="assets/find-and-replace.mp4" autoplay loop muted playsinline></video>
+
+### Search Globally
+
+Press <code>⌘ + Shift + F</code> (or <code>Ctrl + Shift + F</code>) to search **across your whole project**
+
+![global search tab](assets/global-search.png)
 
 ## 8. Move Code Without Copy/Paste
 
