@@ -27,6 +27,10 @@ By the end of this lesson, you’ll learn the essential features of VS Code, exp
 
 ### Open a Folder (Your Project Workspace)
 
+Codespaces automatically creates a folder for your workspace, but you need to create your own workspace when running locally.
+
+<video src="assets/open-project-workspace.mp4" autoplay loop muted playsinline></video>
+
 Let’s make a place for your code. Open your terminal and run:
 
 ```bash
