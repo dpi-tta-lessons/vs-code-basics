@@ -45,7 +45,9 @@ code .
 ```
 
 <aside class="tip">
-  If <code>code .</code> doesn’t work, open VS Code and press <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl+Shift+P</code> (Win/Linux) in VS Code, type <code>shell command</code>, and select <strong>Install 'code' command in PATH</strong>. If this still doesn't work, try clicking <strong>Uninstall 'code' command from PATH</strong> first, then installing again.
+  If <code>code .</code> doesn’t work, open VS Code and press <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl+Shift+P</code> (Win/Linux) in VS Code to open the command palette, type <code>shell command</code>, and select <strong>Install 'code' command in PATH</strong>. If this still doesn't work, try clicking <strong>Uninstall 'code' command from PATH</strong> first, then installing again.
+
+  <img src="assets/shell-command.png" alt="vs code command palette shell command" />
 </aside>
 
 VS Code will open your new folder as a project workspace.
