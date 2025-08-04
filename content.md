@@ -38,6 +38,15 @@ mkdir hello-project
 cd hello-project
 ```
 
+<aside class="tip">
+  <code>mkdir hello-project</code> creates a folder named "hello-project" in the current directory.
+  <code>cd hello-project</code> changes to the folder we just created.
+
+  <strong>Bonus:</strong>
+  Use the <code>ls</code> command to list the folders/files in the current directory.
+  Use the <code>pwd</code> command to see the current working directory path. (This is helpful when you are lost and want to see where you are in the file system)
+</aside>
+
 Now open it in VS Code:
 
 ```bash
@@ -45,6 +54,8 @@ code .
 ```
 
 <aside class="tip">
+  <code>code .</code> opens the current directory in VS Code.
+
   If <code>code .</code> doesn’t work, open VS Code and press <code>⌘ + Shift + P</code> (Mac) or <code>Ctrl+Shift+P</code> (Win/Linux) in VS Code to open the command palette, type <code>shell command</code>, and select <strong>Install 'code' command in PATH</strong>. If this still doesn't work, try clicking <strong>Uninstall 'code' command from PATH</strong> first, then installing again.
 
   <img src="assets/shell-command.png" alt="vs code command palette shell command" />
@@ -52,9 +63,53 @@ code .
 
 VS Code will open your new folder as a project workspace.
 
-## 2. Create and Save a File
+## 2. Familiarize Yourself with the VS Code Layout
 
-![vscode layout](assets/vscode.png)
+When you first open Visual Studio Code, the layout might seem overwhelming, but it's actually very intuitive once you understand the key parts.
+
+![VS Code Layout](/assets/vscode.png)
+
+### Explorer
+
+The Explorer (on the left sidebar) shows the files and folders in your current project. You can:
+
+- Click on a file to open it.
+- Right-click to rename, delete, or create files/folders.
+- Drag files around to reorganize your project.
+
+<aside class="tip">
+  Shortcut: <code>⌘ + B</code> (Mac) or <code>Ctrl + B</code> (Win/Linux) to toggle the Explorer.
+</aside>
+
+### Tabs
+
+Across the top of the editor, you’ll see Tabs for each open file. Tabs let you switch between multiple files without closing them. You can:
+
+- Reorder tabs by dragging.
+- Right-click a tab to split the view or close it.
+- Double-click a file in the Explorer to pin it as a permanent tab.
+
+### Editor
+
+This is where the magic happens. The Editor is the main area where you write and edit code, markdown, or any text files. You can:
+
+- Open multiple files side-by-side using split view.
+- Format your code using the Command Palette or right-click menu.
+- Use syntax highlighting and extensions tailored to the file type.
+
+### Terminal
+
+At the bottom, the Terminal is built right into VS Code. You can:
+
+- Run shell commands like `ls`, `bin/server`, or `git status` right from here.
+- Open it with <code>⌘ + \`</code> or <code>Ctrl + \`</code>.
+- Use the dropdown to create new terminals (bash, zsh, PowerShell, etc.).
+
+The terminal panel also includes tabs for Problems, Output, Debug Console, and more—useful for debugging or tracking logs.
+
+Getting comfortable with this layout is key to using VS Code effectively. As you build more projects, you’ll naturally start moving between these sections without thinking twice.
+
+## 3. Create and Save a File
 
 Let's start off by creating a new file in VS Code.
 
@@ -63,7 +118,9 @@ Let's start off by creating a new file in VS Code.
 Open the VS Code explorer sidebar and click the New File icon in the Explorer sidebar.
 
 <aside class="tip">
- Another approach to quickly creating a file is to right click anywhere in the explorer and select "New File...".
+  Another approach to quickly creating a file is to right click anywhere in the explorer and select "New File...".
+
+  <img src="assets/vscode-explorer-new-file.png" alt="vs code explorer new file context menu">
 </aside>
 
 Name it: `hello.txt`
@@ -80,7 +137,7 @@ Press `⌘ + S` (Mac) or `Ctrl + S` (Win/Linux) to save.
   Files you create in VS Code are saved directly into your project folder. No extra setup needed.
 </aside>
 
-## 3. Use the Integrated Terminal
+## 4. Use the Integrated Terminal
 
 ![new terminal dropdown](assets/new-terminal-dropdown.png)
 
@@ -106,7 +163,7 @@ You should see:
   <strong>Shortcut:</strong> Press <code>ctrl + shift + `</code> to create new terminal instances.
 </aside>
 
-## 4. Use the Explorer to Navigate Your Project
+## 5. Use the Explorer to Navigate Your Project
 
 The **Explorer sidebar** shows your files and folders. You can:
 
@@ -123,7 +180,7 @@ Leverage shortcuts to:
 - Rename a file by clicking on it and pressing the return key
 - Delete a file by click on it and pressing ⌘ + delete key
 
-## 5. Use the Command Palette
+## 6. Use the Command Palette
 
 ![command palette](assets/command-palette.png)
 
@@ -139,7 +196,7 @@ The **Command Palette** lets you do almost anything by typing.
   The Command Palette is especially useful when you don’t remember where a setting lives in the menu.
 </aside>
 
-## 6. Split the Screen to View Multiple Files
+## 7. Split the Screen to View Multiple Files
 
 <video src="assets/split-screen.mp4" autoplay loop muted playsinline></video>
 
@@ -151,7 +208,7 @@ Want to see two files at once?
 
 You can work in both panes simultaneously (great for comparing files or writing HTML and CSS side-by-side).
 
-## 7. Searching Text
+## 8. Searching Text
 
 Need to find some text? Press <code>⌘ + F</code> (or <code>Ctrl + F</code>) to search in the **current file**
 
@@ -167,7 +224,7 @@ Press <code>⌘ + Shift + F</code> (or <code>Ctrl + Shift + F</code>) to search 
 
 ![global search tab](assets/global-search.png)
 
-## 8. Move Code Without Copy/Paste
+## 9. Move Code Without Copy/Paste
 
 Need to reorder lines of code?
 
