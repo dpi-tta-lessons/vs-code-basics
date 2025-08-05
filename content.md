@@ -67,7 +67,7 @@ VS Code will open your new folder as a project workspace.
 
 When you first open Visual Studio Code, the layout might seem overwhelming, but it's actually very intuitive once you understand the key parts.
 
-![VS Code Layout](/assets/vscode.png)
+![VS Code Layout](assets/vscode.png)
 
 ### Explorer
 
